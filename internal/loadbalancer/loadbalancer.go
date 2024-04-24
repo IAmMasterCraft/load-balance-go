@@ -34,5 +34,6 @@ func RequestHandler(w http.ResponseWriter, r *http.Request) {
         return
 	}
 	proxy := httputil.NewSingleHostReverseProxy(remoteUrl)
+	log.Printf("Forwarding request to %s", nextServer)
 	proxy.ServeHTTP(w, r)
 }

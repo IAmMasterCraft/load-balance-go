@@ -9,7 +9,7 @@ const portList = [
 
 portList.forEach(port => {
     const app = express();
-
+    
     app.listen(port, () => {
         console.log(`Server running on port ${port}`);
     });
@@ -18,5 +18,6 @@ portList.forEach(port => {
         res.json({
             message: `Server running on port ${port}`
         });
+        console.log(port);
     });
 });

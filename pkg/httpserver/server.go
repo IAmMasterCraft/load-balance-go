@@ -11,4 +11,5 @@ func StartServer(port string, handler func(http.ResponseWriter, *http.Request)) 
 	if err := http.ListenAndServe(":"+port, nil); err != nil {
         log.Fatalf("Failed to start server: %s", err)
     }
+	log.Printf("Server started on port %s", port)
 }
