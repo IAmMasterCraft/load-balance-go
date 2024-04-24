@@ -5,5 +5,13 @@
   "main": "server.js",
   "repository": "https://github.com/IAmMasterCraft/load-balance-go.git",
   "author": "IAmMasterCraft <bolu.akinsefunmi@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.19.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "yarn start"
+  }
 }

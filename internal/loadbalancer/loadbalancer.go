@@ -12,6 +12,7 @@ var backendServers = []string{
 	"http://localhost:8082",
 	"http://localhost:8083",
 	"http://localhost:8084",
+	"http://localhost:8085",
 }
 
 var currentServer int;
