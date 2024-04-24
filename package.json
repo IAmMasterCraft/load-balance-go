@@ -1,0 +1,9 @@
+{
+  "name": "backend-servers",
+  "version": "1.0.0",
+  "description": "Starting mock servers for the load balancer",
+  "main": "server.js",
+  "repository": "https://github.com/IAmMasterCraft/load-balance-go.git",
+  "author": "IAmMasterCraft <bolu.akinsefunmi@gmail.com>",
+  "license": "MIT"
+}
