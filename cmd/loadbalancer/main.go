@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	loadbalancer.StartHealthChecks()
 	println("Starting load balancer")
 	httpserver.StartServer("9000", loadbalancer.RequestHandler)
 }
